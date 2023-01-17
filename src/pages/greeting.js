@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
-  const title = 'Main page';
-  const message = 'Greeting pageへ.';
+  const title = 'greeting page';
+  const message = 'MainPageへ.';
 
   // style属性に設定するデザイン
   const h1 = {
@@ -45,13 +46,15 @@ export default function Home() {
         <h4 className="my-3" style={subtitle}>
           {title}
         </h4>
-        <h3>Welcome to my Page</h3>
         <div className="alert alert-primary text-center">
           <p className="h5" style={p}>
             {message}.
           </p>
-          <Link href="/greeting">Go to greeting page &gt;&gt;</Link>
+          <Link href="/">Go to Main page &gt;&gt;</Link>
         </div>
+        <p>こんにちは　私のおすすめのYouTuberを紹介します それが彼</p>
+        <Image src="/image/kattu2.jpg" width={300} height={150} />
+        <p>かっつーです<br/></p>
       </div>
     </div>
   );
