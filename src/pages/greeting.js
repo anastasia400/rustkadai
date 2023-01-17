@@ -53,7 +53,7 @@ export default function Home() {
           <Link href="/">Go to Main page &gt;&gt;</Link>
         </div>
         <p>こんにちは　私のおすすめのYouTuberを紹介します それが彼</p>
-        <Image src="/image/kattu2.jpg" width={300} height={150} />
+        <Image src="/image/kattu2.jpg" width={400} height={440} />
         <p>かっつーです<br/></p>
       </div>
     </div>
