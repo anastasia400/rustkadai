@@ -52,7 +52,7 @@ export default function Home() {
           </p>
           <Link href="/">Go to Main page &gt;&gt;</Link>
         </div>
-        <p>こんにちは 僕サッカーが好きなので一番好きな選手を紹介します</p>
+        <p>こんにちは 僕はサッカーが好きなので一番好きな選手を紹介します</p>
         <Image src="/image/ibura.jpg" width={400} height={440} />
         <p>彼はズラタン・イブラヒモビッチ選手です</p>
         <p>彼は身長が195㎝ありもう40歳になりますが現在も現役でサッカーをしています。
